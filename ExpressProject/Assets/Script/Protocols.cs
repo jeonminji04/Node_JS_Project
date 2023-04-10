@@ -19,6 +19,9 @@ public class Protocols : MonoBehaviour
         {
             public string message;
         }
+
+        [System.Serializable]
+
         public class user
         {
             public string id;
@@ -31,6 +34,24 @@ public class Protocols : MonoBehaviour
         public class res_scores_id : res_scores
         {
             public user result;
+        }
+
+        [System.Serializable]
+
+        public class userid
+        {
+            public string id;
+            public string pw;
+        }
+
+        public class req_registerid : common
+        {
+            public userid userid;
+        }
+
+        public class res_registerid : common
+        {
+            public string message;
         }
 
     }
