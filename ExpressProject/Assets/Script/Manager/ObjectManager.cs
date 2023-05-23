@@ -24,7 +24,7 @@ public class ObjectManager
 
     }
 
-    public T Spawn<T> (Vector3 position) where T : BaseController
+    public T Spawn<T> (Vector3 position) where T : BoxController
     {
         System.Type type = typeof(T);
         if(type == typeof(BoxController))
@@ -39,7 +39,7 @@ public class ObjectManager
         return null;
     }
 
-    public void Despawn<T>(T Obj) where T : BaseController
+    public void Despawn<T>(T Obj) where T : BoxController
     {
         System.Type type = typeof(T);
         if(type == typeof(BoxController))

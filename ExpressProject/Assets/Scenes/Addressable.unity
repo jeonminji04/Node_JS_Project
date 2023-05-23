@@ -367,7 +367,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1157194078661762314, guid: 1ec176596aa509949811813240e0e4df, type: 3}
       propertyPath: m_Name
-      value: Cube
+      value: Box
       objectReference: {fileID: 0}
     - target: {fileID: 6313142798697322789, guid: 1ec176596aa509949811813240e0e4df, type: 3}
       propertyPath: m_RootOrder
